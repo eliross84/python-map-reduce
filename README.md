@@ -47,3 +47,7 @@ cat part.txt | python 21mapper.py | sort  | python 22reducer.py
 ## Repository
 
 - [https://github.com/eliross84/python-map-reduce](https://github.com/eliross84/python-map-reduce)
+
+## Commands used:
+- Case 1: changed the output file to departmentMapping.txt and ran the command `py 11mapper.py` to get that output file created with the result of the mapping
+- Case 2: used `cat part.txt | python 11mapper.py | sort | python 12sorter.py` to get the sorted departments and their respective totals
